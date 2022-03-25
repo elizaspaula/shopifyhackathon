@@ -9,9 +9,11 @@ $showcase-bg-height: 10.625rem;
 
 .creator-showcase {
   &__container {
-    height: $showcase-bg-height;
     background-color: $secondary-bg-color;
     padding: $showcase-padding;
+    height: 15.625rem;
+    padding: 3.375rem 4.125rem;
+    text-align: left;
   }
 
   &__header {
