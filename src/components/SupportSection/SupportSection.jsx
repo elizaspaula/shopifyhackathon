@@ -25,7 +25,7 @@ function SupportSection() {
           </div>
           <div className="support-products__products">
             <img
-              className="support-products__image"
+              className="support-products__image--okanagan"
               src={okanaga}
               alt="okanagan  logo"
             />
