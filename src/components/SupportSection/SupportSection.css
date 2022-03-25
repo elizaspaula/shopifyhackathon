@@ -1,0 +1,24 @@
+.support-products {
+  background-color: #e5e5e5;
+  color: black;
+  padding: 2.5rem;
+  margin: 0;
+}
+.support-products__title {
+  font-size: 2.5rem;
+  text-align: left;
+  padding-bottom: 2.9375rem;
+}
+.support-products__content {
+  display: flex;
+  gap: 17.875rem;
+}
+.support-products__subtitle {
+  font-size: 1.5rem;
+}
+.support-products__text {
+  font-size: 0.875rem;
+}
+.support-products__image {
+  width: 452px;
+}/*# sourceMappingURL=SupportSection.css.map */
