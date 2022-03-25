@@ -1,0 +1,71 @@
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/screens' as *;
+
+
+
+
+
+.featured-artist {
+    @include desktop {
+        padding: 0 $page-left-right-padding;
+    }
+
+    &__header {
+        @include desktop {
+            @include page-header;  
+            padding: $header-top-padding 0 $header-bottom-badding 0;
+        } 
+    }
+
+    &__container {
+        @include desktop {     
+            display: flex;
+        } 
+    }
+
+    &__image {
+        @include desktop {
+            width: $hero-image-width;
+            height: $hero-image-height;
+            margin: 0 5rem $image-bottom-margin 0;
+        }
+    }
+
+    &__body-container {
+        @include desktop {
+            width: 35rem;
+            height: 13rem;
+            padding: 1rem 0;
+        }
+    }
+    
+    &__cta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5rem 0 0 0;
+    }
+
+    &__button {
+        @include desktop {
+            @include learn-button;
+           
+            
+        }
+    }
+
+    &__tiktok, &__ig {
+        width: 1.5rem;
+        height: 1.5rem;       
+    }
+
+    &__tiktok {
+        margin: 0 .75rem;
+    }
+
+    &__shop {
+        height: 1.5rem;
+    }
+}
