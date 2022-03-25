@@ -4,6 +4,7 @@
   background-color: $background-color-body;
   color: black;
   padding: 2.5rem;
+  margin: 0 auto;
 
   &__title {
     font-size: 2.5rem;
@@ -22,6 +23,7 @@
 
   &__content {
     display: flex;
+    justify-content: center;
     gap: 17.875rem;
   }
 

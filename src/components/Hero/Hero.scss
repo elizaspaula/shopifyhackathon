@@ -1,20 +1,28 @@
+@use "../../styles/partials/colors" as *;
+
 .hero {
   background-color: #f2a786;
   padding-top: 20px;
-  height: 500px;
+  height: 35.25rem;
   &__title {
+    font-size: 2.5rem;
+
+    padding-bottom: 2.9375rem;
+    font-weight: 500;
+    line-height: 60px;
   }
   &__title-container {
-    margin-left: 155px;
+    text-align: left;
+    margin-left: 10.625rem;
   }
 
   &__images {
     display: flex;
     justify-content: center;
-    column-gap: 10px;
+    column-gap: 0.625rem;
   }
   &__image {
-    height: 270px;
-    width: 270px;
+    height: 21rem;
+    width: 21rem;
   }
 }

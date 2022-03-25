@@ -12,7 +12,9 @@ const Header = () => {
         <div className="header__section">
           <div className="header__shopifyIcon-container">
             <img className="header__shopifyIcon" src={shopifyIcon}></img>
-            <p>Indigenous store</p>
+            <div className="header__title">
+              <p>Indigenous store</p>
+            </div>
           </div>
           <div className="header__inputcontainer">
             <input
