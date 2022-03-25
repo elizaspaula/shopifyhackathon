@@ -1,0 +1,55 @@
+.header {
+  background-color: #faf7ee;
+  padding-bottom: 10px;
+  &__shopifyIcon-container {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 100%;
+  }
+
+  &__shopifyIcon {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+  }
+  &__section {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__logo {
+    display: flex;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    margin-right: 20px;
+  }
+  &__input {
+    margin-top: 20px;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    &--searchIcon {
+      position: absolute;
+      right: 300px;
+      top: 36px;
+    }
+  }
+
+  &__inputcontainer {
+    display: flex;
+    column-gap: 10px;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+  }
+}

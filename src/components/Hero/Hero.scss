@@ -1,0 +1,20 @@
+.hero {
+  background-color: #f2a786;
+  padding-top: 20px;
+  height: 500px;
+  &__title {
+  }
+  &__title-container {
+    margin-left: 155px;
+  }
+
+  &__images {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  &__image {
+    height: 270px;
+    width: 270px;
+  }
+}
