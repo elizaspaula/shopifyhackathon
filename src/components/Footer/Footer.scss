@@ -1,0 +1,47 @@
+.footer {
+  background-color: #faf7ee;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 19px 2.5rem 58px 2.5rem;
+
+  &__wrapper {
+    display: flex;
+    gap: 3.9375rem;
+  }
+
+  &__input {
+    border: none;
+    width: 249px;
+    height: 2.125rem;
+    padding: 0.5rem;
+  }
+
+  &__button {
+    border-style: none;
+    cursor: pointer;
+    background-color: #f2a786;
+    height: 2.125rem;
+    padding: 0.5rem;
+  }
+
+  &__title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+
+  &__subtitle {
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+
+  &__text {
+    font-size: 14px;
+    text-align: left;
+    line-height: 22px;
+  }
+}
