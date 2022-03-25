@@ -1,9 +1,10 @@
 @use "../../styles/partials/colors" as *;
 
 .support-products {
-  background-color: $background-color-body;
+  background-color: white;
   color: black;
   padding: 2.5rem;
+  margin: 0 auto;
 
   &__title {
     font-size: 2.5rem;
@@ -22,6 +23,7 @@
 
   &__content {
     display: flex;
+    justify-content: center;
     gap: 17.875rem;
   }
 

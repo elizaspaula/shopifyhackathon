@@ -1,0 +1,82 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/screens" as *;
+
+$showcase-padding: 3.375rem 4.125rem;
+$showcase-bg-height: 10.625rem;
+
+.creator-showcase {
+  &__container {
+    background-color: $secondary-bg-color;
+    padding: $showcase-padding;
+    height: 15.625rem;
+    padding: 3.375rem 4.125rem;
+    text-align: left;
+  }
+
+  &__header {
+    @include page-header;
+  }
+
+  &__subheader {
+    @include subheader;
+  }
+
+  &__artist-container1,
+  &__artist-container2,
+  &__artist-container3 {
+    width: 26.563rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-95px);
+    margin: 0 0 5rem 0;
+  }
+
+  &__artist-container2--margins {
+    margin: 0 3rem;
+  }
+
+  &__artist {
+    display: flex;
+    margin: 0 2.5rem;
+  }
+
+  &__profile-header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+  }
+
+  &__name {
+    @include profile-header;
+    margin: 0 1rem 0 0;
+  }
+
+  &__auth-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__auth {
+    align-items: center;
+  }
+
+  &__about-artist {
+    height: 5rem;
+    @include profile-subheader;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+  }
+
+  &__products {
+    display: flex;
+  }
+
+  &__item2 {
+    margin: 0 0.25rem;
+  }
+}

@@ -1,0 +1,68 @@
+@use './fonts' as *;
+@use './colors' as *;
+
+$page-header-line-height: 3.75rem;
+$page-header-font-size: 2.5rem;
+
+$page-subheader-font-size: 0.875rem;
+$page-subheader-line-height: 1.138rem;
+
+$profile-title-font-size: 1.5rem;
+$profile-title-line-height: 1.95rem;
+$profile-sub-font-size: .875rem;
+$profile-sub-line-height: 1.138rem;
+
+
+$item-font-size: 1rem;
+$item-line-height: 1.5rem;
+
+$body-text-font-size: 1.5rem;
+$body-text-line-height: 1.95rem;
+
+$button-font-size: 1.125rem;
+$button-text-line-height: 1.361rem;
+
+$hero-image-width: 29.875rem;
+$hero-image-height: 16.813rem;
+$item-image-container: 7.875rem;
+
+$header-top-padding: 5.438rem;
+$page-left-right-padding: 8.313rem;
+$header-bottom-badding: 1.813rem;
+$image-bottom-margin: 8.375rem;
+
+@mixin profile-header {
+    font-size: $profile-title-font-size;
+    line-height: $profile-title-line-height;
+}
+
+@mixin profile-subheader {
+    font-size: $profile-sub-font-size;
+    line-height: $profile-sub-line-height;
+}
+
+@mixin page-header {
+    font-weight: 500;
+    font-size: $page-header-font-size;
+    line-height: $page-header-line-height;
+}
+
+@mixin subheader {
+    font-size: $page-subheader-font-size;
+    line-height: $page-subheader-line-height;
+}
+
+@mixin body-text {
+    font-size: $body-text-font-size;
+    line-height: $body-text-line-height;
+}
+
+@mixin learn-button {
+    font-size: $button-font-size;
+    line-height:  $button-text-line-height;
+    background-color: $button-color;
+    border: none;
+    color: white;
+    width: 8.5rem;
+    height: 2.5rem;
+}
